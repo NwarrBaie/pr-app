@@ -7,6 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        customTxt: "Inconsolata",
+      },
+      boxShadow: {
+        myBox: "2px 3px 1px var(--secondary-color)",
+      },
+      translate: {
+        2: "2px",
+        3: "3px",
+      },
+      colors: {
+        "pink-color": "#f052c4",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
